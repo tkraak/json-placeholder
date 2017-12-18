@@ -1,7 +1,6 @@
-# json-placeholder
+## About
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Working with [Ember Data](https://github.com/emberjs/data) and external API's to gain a deeper understanding of Ember models, adapters, and serializers. Inspired by [this video tutorial](https://youtu.be/ljLxZw-XStw). Thanks [@sbatson5](https://sbatson5.github.io)!
 
 ## Prerequisites
 
