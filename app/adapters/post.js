@@ -1,4 +1,4 @@
-import TypiCode from './typicode'
+import TypiCode from './typicode';
 
 export default TypiCode.extend({
   pathForType() {
