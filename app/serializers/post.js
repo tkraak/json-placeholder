@@ -5,6 +5,10 @@ export default DS.RESTSerializer.extend({
     payload = {
       posts: payload
     };
+    payload.posts.forEach(post => {
+      post.user = post.userId;
+      delete post.userId;
+    });
     return this._super(store, primaryModelClass, payload, id, requestType);
   }
 });
