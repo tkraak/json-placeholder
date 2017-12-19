@@ -1,3 +1,7 @@
 <h2>This is our posts route</h2>
 
 {{outlet}}
+
+{{#each model as |post|}}
+  <h3>{{post.title}}</h3>
+{{/each}}
